@@ -8,12 +8,6 @@ Traffic density estimation using OpenCV functions.
     - Camera angle correction using Homography.
     - Cropping of the image.
 
-## Subtask2: Queue and dynamic density estimation from traffic video
-
-    - The code will take a video as input and will estimate the density of the traffic.
-    - The output will be queue density (blue line in the graph below) and dynamic density (orange line) for the video frames.
-    - Queue density is density of all vehicles queued (either standing or moving) which are waiting for red signal in the straight stretch of road going towards north (output after angle correction and cropping in Subtask1). Dynamic density is the density of those vehicles which are not standing but moving in that same stretch.
-
 ### How to run?
 
     - give the address of the image as command line argument.
@@ -22,6 +16,12 @@ Traffic density estimation using OpenCV functions.
  ![](https://github.com/Amaniitd/Traffic-density-estimation/blob/main/traffic.jpg)
 ### Image after prespective correction:
  ![](https://github.com/Amaniitd/Traffic-density-estimation/blob/main/traffic_projected.jpg)
+
+## Subtask2: Queue and dynamic density estimation from traffic video
+
+    - The code will take a video as input and will estimate the density of the traffic.
+    - The output will be queue density (blue line in the graph below) and dynamic density (orange line) for the video frames.
+    - Queue density is density of all vehicles queued (either standing or moving) which are waiting for red signal in the straight stretch of road going towards north (output after angle correction and cropping in Subtask1). Dynamic density is the density of those vehicles which are not standing but moving in that same stretch.
 
 ## Subtask3: Understanding and analyzing trade-offs in software design
 
