@@ -53,6 +53,7 @@ void onMouse(int mouseClick, int x, int y, int flags, void *)
         setMouseCallback("Gray image", NULL, NULL);
     }
 }
+
 int main(int argc, char **argv)
 {
     image = imread(argv[1], cv::IMREAD_COLOR);
