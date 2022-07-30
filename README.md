@@ -17,9 +17,10 @@ Traffic density estimation using OpenCV functions.
 ### How to run?
 
     - give the address of the image as command line argument.
-    - output:
 
+### Image of the sample video:
 
+### Image after prespective correction:
 
 ## Subtask3: Understanding and analyzing trade-offs in software design
 
