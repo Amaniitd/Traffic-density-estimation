@@ -19,8 +19,9 @@ Traffic density estimation using OpenCV functions.
     - give the address of the image as command line argument.
 
 ### Image of the sample video:
-
+ ![](https://github.com/Amaniitd/Traffic-density-estimation/blob/main/traffic.jpg)
 ### Image after prespective correction:
+ ![](https://github.com/Amaniitd/Traffic-density-estimation/blob/main/traffic_projected.jpg)
 
 ## Subtask3: Understanding and analyzing trade-offs in software design
 
