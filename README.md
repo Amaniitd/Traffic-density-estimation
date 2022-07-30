@@ -23,6 +23,10 @@ Traffic density estimation using OpenCV functions.
     - The output will be queue density (blue line in the graph below) and dynamic density (orange line) for the video frames.
     - Queue density is density of all vehicles queued (either standing or moving) which are waiting for red signal in the straight stretch of road going towards north (output after angle correction and cropping in Subtask1). Dynamic density is the density of those vehicles which are not standing but moving in that same stretch.
 
+### Output graph:
+![](https://github.com/Amaniitd/Traffic-density-estimation/blob/main/density.jpg)
+
+
 ## Subtask3: Understanding and analyzing trade-offs in software design
 
     - Sub-sampling frames -- processing every x frame i.e. process frame N and then frame N+x, and for all intermediate frames just use the value obtained for N - total processing time will reduce, but utility might decrease as intermediate frames values might differ from baseline. Parameter for this method is x, how many frames you drop.
